@@ -49,8 +49,9 @@ Go to **Services** located at the bottom section from the Tools sidebar, and cli
    curl --location --request POST 'http://localhost:8080/api/shuffle?number=1030'
    ```
 
->***NOTE: In case that the number is not in range 1 to 1000 a BAD REQUEST response will be received. Feel free to change
-it***
+>
+***NOTE: In case that the number is not in range 1 to 1000 a BAD REQUEST response will be received. Feel free to change
+the number value***
 
 - After the request has been sent, return to your IDE, select the shuffle log service console and look at the message
-![console_output_result.png](assests/run_setup/console_output_result.png)
+  ![console_output_result.png](assests/run_setup/console_output_result.png)
